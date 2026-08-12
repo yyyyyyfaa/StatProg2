@@ -1,7 +1,9 @@
+# cloned copy - practical 4
+
 <!-- # --- -->
-title: "broken"
-format: pdf
----
+
+title: "broken" format: pdf ---
+
 ```{r}
     library(palmerpenguins)
     library(tidyverse)
@@ -13,6 +15,4 @@ format: pdf
       filter(species == "Adelie") |>
       ggplot(aes(x = bill_length_mm, y = bill_depth_mm)) +
       geom_point()
-``` 
-      
-      
+```
