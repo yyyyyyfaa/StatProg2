@@ -2,6 +2,7 @@
 title: "broken"
 format: pdf
 ---
+# THIS HEADING IS DELIBERATELY BROKEN
 ```{r}
     library(palmerpenguins)
     library(tidyverse)
