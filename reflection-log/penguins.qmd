@@ -1,0 +1,33 @@
+---
+title: "penguins"
+format: html
+---
+
+```{r}
+#| label: penguins-info
+#| echo: false
+#| eval: true
+#| include: false
+#| warning: false
+#| message: false
+library(palmerpenguins)
+head(penguins)
+```
+
+```{r}
+#| label: fig-penguins
+#| warning: false
+#| fig-cap: "Bill length vs. depth across penguin species"
+library(ggplot2)
+ggplot(
+  penguins,
+  aes(
+    bill_length_mm,
+    bill_depth_mm,
+    colour = species
+  )
+) +
+  geom_point()
+```
+
+As shown in @fig-penguins, penguin species differ in bill morphology.
