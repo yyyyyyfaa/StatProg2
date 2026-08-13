@@ -1,0 +1,18 @@
+# cloned copy - practical 4
+# Update from Github
+<!-- # --- -->
+
+title: "broken" format: pdf ---
+
+```{r}
+    library(palmerpenguins)
+    library(tidyverse)
+    head(penguins)
+```
+
+```{r}
+        penguins |>
+      filter(species == "Adelie") |>
+      ggplot(aes(x = bill_length_mm, y = bill_depth_mm)) +
+      geom_point()
+```
