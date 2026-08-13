@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "week04.html",
+    "href": "week04.html",
+    "title": "week04",
+    "section": "",
+    "text": "Version Control Reflection"
+  },
+  {
+    "objectID": "penguins.html",
+    "href": "penguins.html",
+    "title": "penguins",
+    "section": "",
+    "text": "Show code\nlibrary(ggplot2)\nggplot(\n  penguins,\n  aes(\n    bill_length_mm,\n    bill_depth_mm,\n    colour = species\n  )\n) +\n  geom_point()\n\n\n\n\n\n\n\n\nFigure 1: Bill length vs. depth across penguin species\n\n\n\n\n\nAs shown in Figure 1, penguin species differ in bill morphology."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "yes",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "week03.html",
+    "href": "week03.html",
+    "title": "week03",
+    "section": "",
+    "text": "Debugging Reflection"
+  }
+]
